@@ -1,0 +1,3 @@
+[submodule "neurocombat_pyClasse"]
+	path = neurocombat_pyClasse
+	url = https://github.com/inesws/neurocombat_pyClasse.git

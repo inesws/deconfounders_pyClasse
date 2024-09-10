@@ -8,6 +8,20 @@ Includes:
 # neurocombat_pyClasse
 neurocombat function (Fortin, J. P. et al.) implementation in a python classe in order to be compatible with python fit/transform methods and sklearn Pipelines.
 
+update submodule changes
+git submodule update --remote
+
+git add neurocombatPyclasse
+git commit -m "Updated neurocombatPyclasse submodule to the latest version"
+git push origin main  # or your working branch
+
+When cloning this repository do:
+
+git clone https://github.com/yourusername/deconfoundersPyClasse.git
+cd deconfoundersPyClasse
+git submodule init
+git submodule update
+
 # linear_regression_pyClasse
 linear regression to model biological covariates and remove them from neuroimaging data, compatible with python fit/transform methods and sklearn Pipelines.
 
